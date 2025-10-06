@@ -25,7 +25,7 @@ import {
   CloseContainer,
 } from './styledComponents'
 
-import Sidebar from '../OverlaySidebar'
+import OverlaySidebar from '../OverlaySidebar'
 
 import 'reactjs-popup/dist/index.css'
 import './index.css'
@@ -95,7 +95,7 @@ const Header = props => (
                         )}
                       </NavButtonLogout>
                     </CloseContainer>
-                    <Sidebar />
+                    <OverlaySidebar />
                   </>
                 )}
               </Popup>

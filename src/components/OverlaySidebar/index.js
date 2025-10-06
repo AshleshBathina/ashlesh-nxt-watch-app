@@ -34,7 +34,7 @@ const optionsList = [
   },
 ]
 
-class Sidebar extends Component {
+class OverlaySidebar extends Component {
   render() {
     const {location} = this.props
     const {pathname} = location
@@ -67,4 +67,4 @@ class Sidebar extends Component {
   }
 }
 
-export default withRouter(Sidebar)
+export default withRouter(OverlaySidebar)
