@@ -15,6 +15,7 @@ import {
   PasswordLabel,
   LoginButton,
   Error,
+  Idp,
 } from './styledComponents'
 
 import SystemThemeContext from '../../context/systemThemeContext'
@@ -141,6 +142,7 @@ class Login extends Component {
                   <LoginButton type="submit">Login</LoginButton>
                   {showErrorMsg && <Error>*{errorMsg}</Error>}
                 </Form>
+                <Idp>Username: rahul, Password: rahul@2021</Idp>
               </LoginContentContainer>
             </LoginRouteContainer>
           )

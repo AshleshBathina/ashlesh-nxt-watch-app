@@ -1,7 +1,7 @@
 import {formatDistanceToNow} from 'date-fns'
-import {Link} from 'react-router-dom'
 
 import {
+  SLink,
   VideoContainer1,
   Thumbnail1,
   DescContainer1,
@@ -23,7 +23,7 @@ const TrendingVideoItem = props => {
 
   return (
     <VideoContainer1>
-      <Link to={`/videos/${id}`} style={{textDecoration: 'none'}}>
+      <SLink to={`/videos/${id}`}>
         <Thumbnail1 src={thumbnailUrl} alt="video thumbnail" />
         <DescContainer1>
           <Profile src={profileImageUrl} />
@@ -35,7 +35,7 @@ const TrendingVideoItem = props => {
             </ViewsDate1>
           </Description1>
         </DescContainer1>
-      </Link>
+      </SLink>
     </VideoContainer1>
   )
 }

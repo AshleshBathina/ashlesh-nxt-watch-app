@@ -1,11 +1,16 @@
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 export const VideoContainer1 = styled.li`
   display: flex;
   width: 100%;
   margin-bottom: 30px;
   cursor: pointer;
-
+`
+export const SLink = styled(Link)`
+  display: flex;
+  width: 100%;
+  text-decoration: none;
   @media (min-width: 576px) and (max-width: 767px) {
     width: 100%;
   }

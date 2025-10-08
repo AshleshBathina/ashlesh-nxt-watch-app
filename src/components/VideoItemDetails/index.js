@@ -175,11 +175,7 @@ class VideoItemDetails extends Component {
                       const isLiked = likedVideos.includes(id)
                       const isDisliked = dislikedVideos.includes(id)
 
-                      const isVideoSaved = savedVideos.findIndex(
-                        video => video.id === id,
-                      )
-
-                      const isSaved = isVideoSaved !== -1
+                      const isSaved = savedVideos.some(video => video.id === id)
 
                       return (
                         <>
@@ -218,7 +214,6 @@ class VideoItemDetails extends Component {
                                   isSaved={isSaved}
                                   onClick={onSave}
                                   type="button"
-                                  data-testid="save"
                                 >
                                   <MdPlaylistAdd size={20} />
                                   {isSaved ? 'Saved' : 'Save'}

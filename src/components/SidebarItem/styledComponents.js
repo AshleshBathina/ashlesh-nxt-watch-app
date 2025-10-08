@@ -9,7 +9,7 @@ export const Item = styled.li`
   padding: 10px 18px;
 `
 
-export const ItemContentButton = styled.button`
+export const ItemContentButton = styled.div`
   cursor: pointer;
   background-color: transparent;
   border: none;

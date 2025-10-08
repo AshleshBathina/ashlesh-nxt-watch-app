@@ -1,5 +1,11 @@
 import styled from 'styled-components'
 
+export const Idp = styled.p`
+  font-size: 13px;
+  color: gray;
+  font-family: Roboto;
+`
+
 export const LoginRouteContainer = styled.div`
   min-height: 100vh;
   height: 100%;
