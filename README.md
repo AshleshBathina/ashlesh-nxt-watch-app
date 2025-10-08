@@ -6,7 +6,7 @@ A fully functional **YouTube-like video streaming platform** built using **React
 
 ## 🚀 Live Demo
 
-> [Add your deployed link here once you deploy to Netlify or Vercel]
+> https://ashleshnxtwatch.ccbp.tech
 
 ---
 
